@@ -1,0 +1,7 @@
+Dependencias
+
+express                      yarn add express
+instalando nodemon sucrase   yarn add nodemon sucrase -D
+instalando eslint            yarn add eslint -D
+instalando prettier          yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+rodando o eslint             yarn eslint -fix src --ext .js
