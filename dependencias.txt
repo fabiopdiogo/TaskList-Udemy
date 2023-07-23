@@ -12,3 +12,4 @@ criando migration            yarn sequelize migration:create --name=nomedamigrat
 rodando a migration          yarn sequelize db:migrate
 desfazendo ultima migration  yarn sequelize db:migrate:undo
 desfazendo todas migrations  yarn sequelize db:migrate:undo:all
+instalando bcrypt            yarn add bcryptjs
