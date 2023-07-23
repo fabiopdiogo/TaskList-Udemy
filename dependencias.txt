@@ -5,3 +5,7 @@ instalando nodemon sucrase   yarn add nodemon sucrase -D
 instalando eslint            yarn add eslint -D
 instalando prettier          yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 rodando o eslint             yarn eslint -fix src --ext .js
+instalando sequelize         yarn add sequelize-cli -D
+instalando sequelize em prod yarn add sequelize
+instalando plugin            yarn add pg pg-hstore
+criando migration            yarn sequelize migration:create --name=nomedamigration
