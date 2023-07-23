@@ -9,3 +9,6 @@ instalando sequelize         yarn add sequelize-cli -D
 instalando sequelize em prod yarn add sequelize
 instalando plugin            yarn add pg pg-hstore
 criando migration            yarn sequelize migration:create --name=nomedamigration
+rodando a migration          yarn sequelize db:migrate
+desfazendo ultima migration  yarn sequelize db:migrate:undo
+desfazendo todas migrations  yarn sequelize db:migrate:undo:all
