@@ -14,3 +14,4 @@ desfazendo ultima migration  yarn sequelize db:migrate:undo
 desfazendo todas migrations  yarn sequelize db:migrate:undo:all
 instalando bcrypt            yarn add bcryptjs
 instalando jtw               yarn add jsonwebtoken
+instalando yup               yarn add yup
