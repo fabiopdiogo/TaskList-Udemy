@@ -1,5 +1,3 @@
-// conexão do banco de dados com os models
-
 import Sequelize from 'sequelize';
 import databaseConfig from '../config/database';
 

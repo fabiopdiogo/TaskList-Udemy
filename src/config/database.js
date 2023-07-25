@@ -1,5 +1,3 @@
-// indentificando o banco de dados para o sequelize
-
 module.exports = {
   dialect: 'postgres',
   host: 'localhost',
@@ -9,6 +7,6 @@ module.exports = {
   define: {
     timestamps: true,
     underscored: true,
-    undescoredAll: true,
-  }
-}
+    underscoredAll: true,
+  },
+};
