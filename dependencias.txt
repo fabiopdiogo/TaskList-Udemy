@@ -15,3 +15,4 @@ desfazendo todas migrations  yarn sequelize db:migrate:undo:all
 instalando bcrypt            yarn add bcryptjs
 instalando jtw               yarn add jsonwebtoken
 instalando yup               yarn add yup
+adicionnando controllers     yarn add cors
